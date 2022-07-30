@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Libre+Franklin:wght@100&family=Nunito:wght@300&family=Poppins:wght@300&family=Raleway:wght@300&family=Work+Sans&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background: #F0DB4F;
+}
+
+body{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title {
+    font-size: 150px;
+    text-shadow: 0 0 50px;
+    color: white;
+    position: relative;
+    width: 100%;
+    left: 28%;
+    padding: 1%;
+    margin-bottom: 20px;
+}
+
+.text-1, .text-2 {
+    color: white;
+    margin-bottom: 50px;
+}
+
+#subtitle-1, #subtitle-2 {
+    font-size: 50px;
+    text-shadow: 0 0 50px;
+    padding: 1%;
+    margin: 1%;
+}
+
+#paragraph {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 6%;
+}
+
+#font-1 {
+    position: relative;
+    margin: 1%;
+    text-shadow: 0 0 30px white;
+    left: 100px;
+}
+
+#link {
+    color: white;
+}
+
+#image-html, #image-css, #image-js {
+    position: relative;
+    padding: 0;
+    margin-bottom: 100px;
+    margin: 5%;
+}
+
+#image-html {
+    left: 10%;
+    border-radius: 50%;
+}
+
+#image-css {
+    bottom: 500px;
+    left: 37%;
+    border-radius: 50%;
+}
+
+#image-js {
+    bottom: 1000px;
+    left: 62%;
+    border-radius: 20%;
+}
+
+#html, #css, #javascript {
+    font-size: 50px;
+    position: relative;
+}
+
+#html {
+    left: 18.5%;
+    bottom: 70px;
+}
+
+#css {
+    left: 46.5%;
+    bottom: 575px;
+}
+
+#javascript {
+    left: 72%;
+    bottom: 1075px;
+}
