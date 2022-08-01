@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Libre+Franklin:wght@100&family=Nunito:wght@300&family=Poppins:wght@300&family=Raleway:wght@300&family=Work+Sans&display=swap');
 
 * {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     background: #F0DB4F;
 }
 
 body{
-    position: relative;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -16,10 +15,9 @@ body{
     font-size: 150px;
     text-shadow: 0 0 50px;
     color: white;
-    position: relative;
-    width: 100%;
-    left: 28%;
-    padding: 1%;
+    position: absolute;
+    width: 30%;
+    left: 22%;
     margin-bottom: 20px;
 }
 
@@ -28,26 +26,106 @@ body{
     margin-bottom: 50px;
 }
 
-#subtitle-1, #subtitle-2 {
-    font-size: 50px;
+#subtitle-1 { 
+    font-size: 35px;
     text-shadow: 0 0 50px;
-    padding: 1%;
-    margin: 1%;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 10%;
 }
 
-#paragraph {
+#subtitle-2 {
+    font-size: 35px;
+    text-shadow: 0 0 50px;
+    width: 35%;
+    position: absolute;
+    top: 120%;
+    left: 10%;
+}
+
+#paragraph-1 {
     font-size: 30px;
     margin: 0;
     padding: 0;
-    position: relative;
-    left: 6%;
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    top: 62%;
+}
+
+#paragraph-2 {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    width: 65%;
+    position: absolute;
+    left: 20%;
+    top: 72%;
+}
+
+#paragraph-3 {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    width: 65%;
+    position: absolute;
+    left: 20%;
+    top: 82%;
+}
+
+#paragraph-4 {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    width: 65%;
+    position: absolute;
+    left: 20%;
+    top: 132%;
+}
+
+#paragraph-5 {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    width: 65%;
+    position: absolute;
+    left: 20%;
+    top: 142%;
+}
+
+#paragraph-6 {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    width: 65%;
+    position: absolute;
+    left: 20%;
+    top: 152%;
+}
+
+#paragraph-7 {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    width: 65%;
+    position: absolute;
+    left: 20%;
+    top: 162%;
 }
 
 #font-1 {
-    position: relative;
-    margin: 1%;
+    position: absolute;
     text-shadow: 0 0 30px white;
-    left: 100px;
+    top: 100%;
+    left: 20%;
+}
+
+#font-2 {
+    position: absolute;
+    text-shadow: 0 0 30px white;
+    top: 182%;
+    left: 20%;
 }
 
 #link {
@@ -55,45 +133,58 @@ body{
 }
 
 #image-html, #image-css, #image-js {
-    position: relative;
-    padding: 0;
-    margin-bottom: 100px;
-    margin: 5%;
+    position: absolute;
+    margin-bottom: 50px;
 }
 
 #image-html {
+    top: 200%;
     left: 10%;
     border-radius: 50%;
 }
 
 #image-css {
-    bottom: 500px;
+    top: 200%;
     left: 37%;
     border-radius: 50%;
 }
 
 #image-js {
-    bottom: 1000px;
+    top: 200%;
     left: 62%;
-    border-radius: 20%;
+    border-radius: 10%;
 }
 
 #html, #css, #javascript {
     font-size: 50px;
-    position: relative;
+    position: absolute;
 }
 
 #html {
-    left: 18.5%;
-    bottom: 70px;
+    left: 15%;
+    top: 240%;
 }
 
 #css {
-    left: 46.5%;
-    bottom: 575px;
+    left: 43%;
+    top: 240%;
 }
 
 #javascript {
-    left: 72%;
-    bottom: 1075px;
+    left: 69%;
+    top: 240%;
+}
+
+#paragraph-footer {
+    position: relative;
+    font-size: 20px;
+    padding: 0.3%;
+    top: 1550px;
+    color: black;
+    background: #ffea64;
+}
+    
+#link-2 {
+    color: black;
+    background: #ffea64; 
 }
